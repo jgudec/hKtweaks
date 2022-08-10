@@ -14,5 +14,5 @@
         android:layout_height="?attr/actionBarSize"
         app:contentInsetLeft="72dp"
         app:contentInsetStart="72dp"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+         />
 </com.google.android.material.appbar.AppBarLayout>

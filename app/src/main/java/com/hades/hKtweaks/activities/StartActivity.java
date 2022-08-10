@@ -22,6 +22,8 @@ package com.hades.hKtweaks.activities;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.material.color.DynamicColors;
+
 /**
  * Created by willi on 02.08.16.
  */

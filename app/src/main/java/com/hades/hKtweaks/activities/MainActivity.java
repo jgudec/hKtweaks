@@ -28,6 +28,7 @@ import androidx.core.content.ContextCompat;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.material.color.DynamicColors;
 import com.hades.hKtweaks.R;
 import com.hades.hKtweaks.database.tools.profiles.Profiles;
 import com.hades.hKtweaks.fragments.kernel.BusCamFragment;
@@ -82,6 +83,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        DynamicColors.applyToActivitiesIfAvailable(this.getApplication());
 
         setContentView(R.layout.activity_main);
 
@@ -387,7 +389,7 @@ public class MainActivity extends BaseActivity {
             if (activity == null) return;
 
             int red = ContextCompat.getColor(activity, R.color.red);
-            int green = ContextCompat.getColor(activity, R.color.green);
+            int green = ContextCompat.getColor(activity, R.color.material_dynamic_primary40);
             switch (values[0]) {
                 case 0:
                     activity.mRootAccess.setTextColor(mHasRoot ? green : red);

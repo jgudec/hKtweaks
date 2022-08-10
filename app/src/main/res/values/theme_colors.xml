@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="defaultPrimary">#2A7289</color>
+    <color name="defaultPrimary">@color/material_dynamic_primary60</color>
     <color name="defaultPrimaryDark">#00475C</color>
-    <color name="defaultAccent">#5EA1b9</color>
+    <color name="defaultAccent">@color/material_dynamic_primary99</color>
+    <color name="defaultBackground">?attr/colorSurfaceVariant</color>
     <color name="redPrimary">#F44336</color>
     <color name="redPrimaryDark">#D32F2F</color>
     <color name="redAccent">#FF5252</color>
@@ -12,11 +13,11 @@
     <color name="purplePrimary">#9C27B0</color>
     <color name="purplePrimaryDark">#7B1FA2</color>
     <color name="purpleAccent">#E040FB</color>
-    <color name="bluePrimary">#6b8bd3</color>
-    <color name="bluePrimaryDark">#6b8bd3</color>
+    <color name="bluePrimary">@color/material_dynamic_primary60</color>
+    <color name="bluePrimaryDark">@color/material_dynamic_primary60</color>
     <color name="blueSecondaryDark">#212121</color>
     <color name="blueSecondaryDarkAmoled">#000000</color>
-    <color name="blueAccent">#7bd3fe</color>
+    <color name="blueAccent">@color/material_dynamic_primary10</color>
     <color name="greenPrimary">#4CAF50</color>
     <color name="greenPrimaryDark">#388E3C</color>
     <color name="greenAccent">#69F0AE</color>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="68dp"
+android:layout_marginStart="24dp"
+android:layout_marginEnd="24dp"
+android:textAppearance="?attr/textAppearanceHeadlineSmall"
+android:textColor="?attr/colorOnSurface"
+android:text="HKTweaks" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="24dp"
+android:layout_marginStart="24dp"
+android:layout_marginEnd="24dp"
+android:textAppearance="?attr/textAppearanceTitleSmall"
+android:textColor="?attr/colorOnSurfaceVariant"
+android:text="A tweak tool for Samsung devices" />
+
+    </LinearLayout>

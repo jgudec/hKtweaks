@@ -21,7 +21,7 @@
             android:layout_gravity="center"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:tint="?attr/colorAccent"
+            android:tint="@color/defaultPrimary"
             app:srcCompat="@drawable/ic_refresh" />
 
         <TextView
@@ -50,7 +50,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
             android:scaleY="-1"
-            android:tint="?attr/colorAccent"
+            android:tint="@color/defaultPrimary"
             app:srcCompat="@drawable/ic_refresh" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_gravity="center"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:tint="?attr/colorAccent"
+            android:tint="@color/defaultPrimary"
             app:srcCompat="@drawable/ic_restore" />
 
         <TextView

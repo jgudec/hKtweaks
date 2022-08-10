@@ -34,6 +34,6 @@
         android:focusable="false"
         android:theme="@style/ItemTextAppearance"
         android:background="?colorSecondary"
-        app:headerLayout="@layout/nav_header_layout" />
+        app:headerLayout="@layout/header_navigation_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
